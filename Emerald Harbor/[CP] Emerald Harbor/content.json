@@ -1,0 +1,19 @@
+{
+    "Format": "1.24.0",
+    
+    "Changes":
+    [
+    /*********
+    ** Map Patches
+    *********/ 
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "FromFile": "Assets/Maps/MapPatches/DockPatch.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 14, "Height": 8 },
+            "ToArea": { "X": 90, "Y": 35, "Width": 14, "Height": 8 },
+            "PatchMode": "Overlay",
+        },
+
+]
+}
