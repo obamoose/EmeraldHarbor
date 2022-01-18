@@ -8,7 +8,7 @@
         ** Emerald Harbor
         *********/ 
         {
-            "Name": "Custom_EmeraldHarbor_EmeraldHarbor",
+            "Name": "Custom_EH_EmeraldHarbor",
             "FromMapFile": "Assets/Maps/EmeraldHarbor.tmx",
         }, 
     ],
@@ -27,5 +27,15 @@
             "PatchMode": "ReplaceByLayer",
         },
 
-]
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "AddWarps":
+            [
+                "20 20 Custom_EH_EmeraldHarbor 20 20",
+            ]
+        },  
+
+    ]
+    
 }
