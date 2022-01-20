@@ -3,7 +3,7 @@
     "Author": "SDV+",
     "Version": "0.0.1",
     "Description": "Adds a harbor to East Scarp and Pelican Town where other mods can connect their docks.",
-    "UniqueID": "SMC.EmeraldHarbor",
+    "UniqueID": "SDVplus.EmeraldHarbor.CP",
     "MinimumApiVersion": "3.0.0",
     "UpdateKeys": [ "Nexus:9990" ],
     "ContentPackFor":

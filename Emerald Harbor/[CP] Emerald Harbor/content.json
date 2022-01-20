@@ -3,14 +3,13 @@
     
     "CustomLocations":
     [
-
         /*********
         ** Emerald Harbor
         *********/ 
         {
             "Name": "Custom_EH_EmeraldHarbor",
             "FromMapFile": "Assets/Maps/EmeraldHarbor.tmx",
-        }, 
+        },
     ],
 
     "Changes":
@@ -32,10 +31,23 @@
             "Target": "Maps/Beach",
             "AddWarps":
             [
-                "20 20 Custom_EH_EmeraldHarbor 20 20",
+                "104 38 Custom_EH_EmeraldHarbor 0 43",
+                "104 39 Custom_EH_EmeraldHarbor 0 44",
+                "104 40 Custom_EH_EmeraldHarbor 0 45",                                
             ]
         },  
 
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_EH_EmeraldHarbor",
+            "AddWarps":
+            [
+                "-1 43 Beach 103 38",
+                "-1 44 Beach 103 39",
+                "-1 45 Beach 103 40",                                
+            ]
+        }, 
+
+
     ]
-    
 }

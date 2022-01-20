@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="50" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="12">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="50" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="17">
  <properties>
   <property name="Outdoors" value="T"/>
  </properties>
- <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+ <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
   <image source="paths" width="64" height="144"/>
   <tile id="0">
    <properties>
@@ -1395,15 +1395,36 @@
  </layer>
  <objectgroup id="6" name="Back"/>
  <objectgroup id="7" name="Buildings">
-  <properties>
-   <property name="Passable" type="bool" value="true"/>
-  </properties>
-  <object id="6" name="TileData" x="336" y="320" width="16" height="16"/>
-  <object id="7" name="TileData" x="336" y="304" width="16" height="16"/>
-  <object id="8" name="TileData" x="336" y="288" width="16" height="16"/>
-  <object id="9" name="TileData" x="448" y="320" width="16" height="16"/>
-  <object id="10" name="TileData" x="448" y="304" width="16" height="16"/>
-  <object id="11" name="TileData" x="448" y="288" width="16" height="16"/>
+  <object id="8" name="TileData" x="336" y="288" width="16" height="16">
+   <properties>
+    <property name="Passable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="336" y="304" width="16" height="16">
+   <properties>
+    <property name="Passable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="336" y="320" width="16" height="16">
+   <properties>
+    <property name="Passable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="448" y="288" width="16" height="16">
+   <properties>
+    <property name="Passable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="448" y="304" width="16" height="16">
+   <properties>
+    <property name="Passable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="448" y="320" width="16" height="16">
+   <properties>
+    <property name="Passable" type="bool" value="true"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="8" name="Front"/>
  <objectgroup id="9" name="Paths"/>
